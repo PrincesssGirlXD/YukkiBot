@@ -1,10 +1,7 @@
-#worker: python3 -m YukkiMusic
-build:
+worker: Dockerfile 
+worker: python3 -m YukkiMusic
 
-  docker:
 
-    worker: Dockerfile
 
-run:
 
-  worker: bash start
+
