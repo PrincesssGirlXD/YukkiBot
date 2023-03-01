@@ -7,8 +7,8 @@
 #
 # All rights reserved.
 
-#from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
-from pymongo import MongoClient
+from motor.motor_asyncio import AsyncIOMotorClient as _mongo_client_
+from pymongo import *
 from pyrogram import Client
 
 import config
