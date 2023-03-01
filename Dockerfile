@@ -1,4 +1,6 @@
-FROM nikolaik/python-nodejs:python3.9-nodejs18
+FROM nikolaik/python-nodejs:python3.10-nodejs17
+
+add this on top of ur dockerfile
 RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y --no-install-recommends ffmpeg \
     && apt-get clean \
